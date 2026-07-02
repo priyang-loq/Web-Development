@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Practice</title>
+</head>
+<body>
+    <h1>HTML Forms Practice</h1>
+
+    <form action="/submit.php">
+        <div>
+            <label for="first-name">First Name</label>
+            <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter your first name"
+                required
+            >
+
+            <label for="last-name">Last Name</label>
+            <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Enter your last name"
+                required
+            >
+        </div>
+
+        <div>
+            <label for="mobile">Mobile Number</label>
+            <input
+                type="tel"
+                id="mobile"
+                name="mobile"
+                placeholder="Enter your mobile number"
+                required
+            >
+        </div>
+
+        <div>
+            <label for="adults">Number of Adults</label>
+            <input
+                type="number"
+                id="adults"
+                name="adults"
+                min="1"
+                max="10"
+                value="1"
+                required
+            >
+        </div>
+
+        <div>
+            <label for="kids">Number of Kids</label>
+            <input
+                type="number"
+                id="kids"
+                name="kids"
+                min="0"
+                max="10"
+                value="0"
+                required
+            >
+        </div>
+
+        <div>
+            <p>Subscription Plan</p>
+
+            <input
+                type="radio"
+                id="basic"
+                name="subscription"
+                value="basic"
+            >
+            <label for="basic">Basic</label>
+
+            <input
+                type="radio"
+                id="premium"
+                name="subscription"
+                value="premium"
+            >
+            <label for="premium">Premium</label>
+
+            <input
+                type="radio"
+                id="vip"
+                name="subscription"
+                value="vip"
+            >
+            <label for="vip">VIP</label>
+        </div>
+
+        <div>
+            <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+            >
+            <label for="terms">
+                I agree to the terms and conditions.
+            </label>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
