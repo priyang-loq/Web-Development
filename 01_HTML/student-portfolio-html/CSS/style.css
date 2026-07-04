@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+    background-image: url(../images/topback.jpg);
+    padding: 20px;
+    background-size: cover;
+}
+
+nav table {
+    margin-left: auto;
+}
+
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #6B7280;
+}
+
+a:hover,
+a:focus-visible {
+    color: #2563EB;
+}
+
+#home {
+    text-align: center;
+    background-image: url(../images/midback.jpg);
+    background-size: cover;
+}
+
+#home img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: rgb(146, 174, 147);
+    color: black;
+    text-align: center;
+    font-size: 0.7rem;
+    border: 3px #000 solid;
+}
