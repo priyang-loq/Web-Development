@@ -1,43 +1,107 @@
-header {
-    text-align: center;
-    background-image: url(../images/topback.jpg);
-    padding: 20px;
-    background-size: cover;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav table {
-    margin-left: auto;
+.das {
+    color: rgb(23, 128, 255);
 }
 
-a {
-    color: #000;
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: rgb(5, 5, 41);
+    color: #fff;
+
 }
 
-a:visited {
-    color: #6B7280;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
 }
 
-a:hover,
-a:focus-visible {
-    color: #2563EB;
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: rgb(23, 128, 255);
+}
+
+nav a:hover,
+nav a:focus-visible {
+    color: grey;
 }
 
 #home {
-    text-align: center;
-    background-image: url(../images/midback.jpg);
-    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px 10%;
+    gap: 50px;
 }
 
-#home img {
-    display: block;
-    margin: 20px auto;
+.hero-text h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.hero-text span {
+    color: rgb(23, 128, 255);
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
     border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
-footer {
-    background-color: rgb(146, 174, 147);
-    color: black;
+.hero-link {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.btech {
+    color: rgb(23, 128, 255);
+}
+
+.mywork {
+    background-color: rgb(23, 128, 255);
+    padding: 10px;
+}
+
+.mywork a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mywork a:hover,
+.mywork a:focus-visible {
+    color: grey;
+}
+
+.resume {
+    border: rgb(23, 128, 255) solid 2px;
+    padding: 10px;
+}
+
+.resume a {
+    color: rgb(23, 128, 255);
+    text-decoration: none;
     text-align: center;
-    font-size: 0.7rem;
-    border: 3px #000 solid;
+}
+
+.resume a:hover,
+.resume a:focus-visible {
+    color: grey;
 }
