@@ -87,7 +87,7 @@ nav a:focus-visible {
 
 .mywork a:hover,
 .mywork a:focus-visible {
-    color: grey;
+    color: rgb(178, 253, 40);
 }
 
 .resume {
@@ -103,5 +103,40 @@ nav a:focus-visible {
 
 .resume a:hover,
 .resume a:focus-visible {
-    color: grey;
+    color: rgb(18, 3, 3);
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 10%;
+}
+
+.ab-image img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.abh {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.abme a {
+    border: rgb(23, 128, 255) solid 2px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(23, 128, 255);
+    text-decoration: none;
+}
+
+.abme a:hover,
+.abme a:focus-visible {
+    color: black;
 }
