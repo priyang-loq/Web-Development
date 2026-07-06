@@ -152,26 +152,11 @@ nav a:focus-visible {
     text-align: center;
 }
 
-.c {
-    text-align: center;
-}
-
-.git {
-    text-align: center;
-}
-
-.DSA {
-    text-align: center;
-}
-
-.htm {
-    text-align: center;
-}
-
-.CSS {
-    text-align: center;
-}
-
+.c,
+.git,
+.DSA,
+.htm,
+.CSS,
 .JS {
     text-align: center;
 }
