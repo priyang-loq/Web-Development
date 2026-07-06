@@ -142,8 +142,10 @@ nav a:focus-visible {
 }
 
 #skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
 }
 
 .sk {
