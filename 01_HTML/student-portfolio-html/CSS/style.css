@@ -140,3 +140,12 @@ nav a:focus-visible {
 .abme a:focus-visible {
     color: black;
 }
+
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sk {
+    text-align: center;
+}
