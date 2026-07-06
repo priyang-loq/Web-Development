@@ -175,3 +175,56 @@ nav a:focus-visible {
 .JS {
     text-align: center;
 }
+
+.proj {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0 150px;
+}
+
+#projects a {
+    color: rgb(23, 128, 255);
+    text-decoration: none;
+}
+
+#projects a:hover,
+#projects a:focus-visible {
+    color: black;
+}
+
+.cm {
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.cmc {
+    background-color: rgb(23, 128, 255);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 125px;
+    color: #fff;
+}
+
+.fo {
+    color: rgb(23, 128, 255);
+    border: rgb(23, 128, 255) solid 2px;
+    padding: 20px;
+}
+
+.in {
+    background-color: rgb(23, 128, 255);
+    color: #fff;
+    padding: 10px;
+    outline: none;
+}
