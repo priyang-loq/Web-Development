@@ -51,7 +51,7 @@ body {
 .nav-location,
 .nav-lang,
 .nav-login,
-.nav-order,
+.nav-orders,
 .nav-cart {
     padding: 8px;
     border: 1px solid transparent;
@@ -64,7 +64,7 @@ body {
 .nav-location:hover,
 .nav-lang:hover,
 .nav-login:hover,
-.nav-order:hover,
+.nav-orders:hover,
 .nav-cart:hover,
 .top-nav img:hover {
     border: 1px solid white;
@@ -105,7 +105,8 @@ body {
     flex: 1;
     margin: 0 20px;
 }
-.search-bar{
+
+.search-bar {
     display: flex;
     align-items: center;
 
@@ -115,7 +116,8 @@ body {
     border-radius: 5px;
     overflow: hidden;
 }
-.search-dropdown{
+
+.search-dropdown {
     width: 60px;
     height: 100%;
 
@@ -127,7 +129,8 @@ body {
     text-align: center;
     cursor: pointer;
 }
-.search-input{
+
+.search-input {
     flex: 1;
 
     height: 100%;
@@ -139,7 +142,8 @@ body {
 
     font-size: 15px;
 }
-.search-button{
+
+.search-button {
     width: 50px;
     height: 100%;
 
@@ -151,14 +155,18 @@ body {
 
     font-size: 18px;
 }
-.search-button:hover{
+
+.search-button:hover {
     background-color: #F3A847;
 }
-.search-bar:focus-within{
+
+.search-bar:focus-within {
     outline: 3px solid #F3A847;
 }
+
 .language {
-    background-color: #131921; /* Navbar background */
+    background-color: #131921;
+    /* Navbar background */
     color: white;
     border: none;
     outline: none;
@@ -166,6 +174,7 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
 .language option {
     background-color: white;
     color: black;
