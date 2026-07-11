@@ -232,3 +232,12 @@ body {
     background-color: white;
     color: black;
 }
+
+.rufus {
+    background-color: white;
+    border-radius: 20%;
+}
+
+.rufus a {
+    color: #232f3e;
+}
