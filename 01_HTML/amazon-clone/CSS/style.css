@@ -342,3 +342,19 @@ body {
     height: 180px;
     object-fit: contain;
 }
+
+.back-to-top {
+    background-color: #37475a;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.back-to-top a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.back-to-top:hover {
+    background-color: #485769;
+}
