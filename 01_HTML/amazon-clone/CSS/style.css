@@ -179,3 +179,56 @@ body {
     background-color: white;
     color: black;
 }
+
+.panel {
+    display: flex;
+    align-items: center;
+    background: #232f3e;
+    color: white;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.panel-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.panel-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid transparent;
+}
+
+.panel-all,
+.browsing {
+    padding: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.panel-links a:hover,
+.panel-all:hover,
+.browsing:hover {
+    border: 1px solid white;
+}
+
+.browsing {
+    background: #232f3e;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.browsing option {
+    background-color: white;
+    color: black;
+}
