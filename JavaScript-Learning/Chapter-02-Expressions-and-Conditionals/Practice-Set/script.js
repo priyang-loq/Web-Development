@@ -8,10 +8,14 @@
 // else alert("you are not lie on the age boundary")
 // Q3 
 // Q4
-let a = prompt("Enter the number to check it is divisible by 2 or 3")
-a = Number.parseInt(a)
-if( a%2 == 0 || a%3 ==0)
-{
-    alert("The number is divisible by 2 or 3")
-}
-else alert("The number is not divisible by 2 or 3")
+// let a = prompt("Enter the number to check it is divisible by 2 or 3")
+// a = Number.parseInt(a)
+// if( a%2 == 0 || a%3 ==0)
+// {
+//     alert("The number is divisible by 2 or 3")
+// }
+// else alert("The number is not divisible by 2 or 3")
+// Q5 
+let age = 17
+let a = age>18?"YOu are elgible for driving" : "You are not eligible for driving"
+console.log(a)
