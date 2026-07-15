@@ -8,3 +8,7 @@ let obj = {
 for (let a in obj){
     console.log("Marks of "+ a + " are " + obj[a])
 }
+// for-of loops
+for (let b of "Priyang"){
+    console.log(b)
+}
