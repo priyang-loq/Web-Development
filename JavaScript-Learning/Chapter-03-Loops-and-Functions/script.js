@@ -1,5 +1,5 @@
 // For-in Loops
-let obj = {
+/*let obj = {
     rohon : 45,
     rahul : 46,
     pratiksha : 50,
@@ -48,4 +48,18 @@ let j = 1;
 do {
     console.log(j);
     j++;
-} while (j <= num);
+} while (j <= num); */
+
+
+
+// Function
+const sum = (a,b) =>{
+    return a+b
+}
+let s =1
+let dd =6
+console.log(sum(s,dd))
+function onePlus(x,y){
+    return 1+x+y
+}
+console.log(onePlus(s,dd))
