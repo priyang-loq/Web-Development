@@ -22,3 +22,12 @@ while (n !== 0) {
 }
 
 console.log("Correct!");
+// Q4
+function mean(a, b, c, d, e) {
+    return (a + b + c + d + e) / 5;
+}
+
+// Calling the function
+let result = mean(10, 20, 30, 40, 50);
+
+console.log("Mean =", result);
