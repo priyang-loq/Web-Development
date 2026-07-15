@@ -9,3 +9,11 @@ console.log(str.startsWith("With"));   // false
 
 console.log(str.endsWith("Harry"));    // true
 console.log(str.endsWith("Code"));     // false
+
+// Q3
+console.log(str.toLowerCase())
+
+//Q4
+let str2 = "THE PRICE IS 15500"
+let num = Number.parseInt(str2.slice(12))
+console.log(num)
