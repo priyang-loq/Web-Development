@@ -24,9 +24,9 @@
 // Uncomment one section at a time
 // ==============================
 
-let arr = [10, 20, 30, 40, 50];
+// let arr = [10, 20, 30, 40, 50];
 
-console.log("Original Array:", arr);
+// console.log("Original Array:", arr);
 
 // ==================================
 // 1. delete
@@ -120,10 +120,78 @@ console.log("Original Array:", arr);
 
 // arr.reverse();
 // console.log("Reversed:", arr);
-arr.forEach((element) => {
-    console.log(element * element)
-})
-// array form
-let name = "PRIYANG"
-let string = Array.from(name)
-console.log(string)
+// arr.forEach((element) => {
+//     console.log(element * element)
+// })
+// // array form
+// let name = "PRIYANG"
+// let string = Array.from(name)
+// console.log(string)
+
+// =====================================
+// JavaScript Array Methods
+// map(), filter(), reduce()
+// Uncomment one section at a time
+// =====================================
+
+let arr = [1, 2, 3, 4, 5];
+
+console.log("Original Array:", arr);
+
+// =====================================
+// 1. map()
+// Creates a new array by modifying
+// every element.
+// =====================================
+
+// let result = arr.map(function(value) {
+//     return value * 2;
+// });
+
+// console.log("Original:", arr);
+// console.log("Mapped:", result);
+
+// Output:
+// Original: [1, 2, 3, 4, 5]
+// Mapped: [2, 4, 6, 8, 10]
+
+
+
+// =====================================
+// 2. filter()
+// Returns only those elements that
+// satisfy the condition.
+// =====================================
+
+// let result = arr.filter(function(value) {
+//     return value % 2 === 0;
+// });
+
+// console.log("Original:", arr);
+// console.log("Even Numbers:", result);
+
+// Output:
+// Original: [1, 2, 3, 4, 5]
+// Even Numbers: [2, 4]
+
+
+
+// =====================================
+// 3. reduce()
+// Reduces the array to a single value.
+// Syntax:
+// array.reduce(function(accumulator, currentValue) {
+//     return accumulator;
+// }, initialValue);
+// =====================================
+
+// let sum = arr.reduce(function(accumulator, currentValue) {
+//     return accumulator + currentValue;
+// }, 0);
+
+// console.log("Original:", arr);
+// console.log("Sum:", sum);
+
+// Output:
+// Original: [1, 2, 3, 4, 5]
+// Sum: 15
