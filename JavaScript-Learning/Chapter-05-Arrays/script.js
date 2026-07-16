@@ -1,10 +1,10 @@
-let arr = [1, 2, 3, 4]
-console.log(arr)
-console.log(arr[0])
-console.log(arr[1])
-console.log(arr[2])
-console.log(arr[3])
-console.log(arr[4])
+// let arr = [1, 2, 3, 4]
+// console.log(arr)
+// console.log(arr[0])
+// console.log(arr[1])
+// console.log(arr[2])
+// console.log(arr[3])
+// console.log(arr[4])
 // Array Methods
 // let r = arr.toString()
 
@@ -18,7 +18,7 @@ console.log(arr[4])
 
 // let r = arr.unshift(7)
 
-console.log(r)
+// console.log(r)
 // ==============================
 // JavaScript Array Methods
 // Uncomment one section at a time
@@ -120,3 +120,10 @@ console.log("Original Array:", arr);
 
 // arr.reverse();
 // console.log("Reversed:", arr);
+arr.forEach((element) => {
+    console.log(element * element)
+})
+// array form
+let name = "PRIYANG"
+let string = Array.from(name)
+console.log(string)
